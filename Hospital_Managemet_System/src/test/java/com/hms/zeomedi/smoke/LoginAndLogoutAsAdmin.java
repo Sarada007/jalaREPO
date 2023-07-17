@@ -46,7 +46,7 @@ public static void main(String[] args) throws IOException {
 
 
 	System.out.println("merge done");
-	
+	System.out.println("ok complete");
 	
 }
 }

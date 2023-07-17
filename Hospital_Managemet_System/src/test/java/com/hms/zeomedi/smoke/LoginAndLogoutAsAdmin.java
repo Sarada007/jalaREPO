@@ -43,7 +43,9 @@ public static void main(String[] args) throws IOException {
 	hp.getAdminClickHereButton().click();
 	alp.adminLogin(fu.readDataFromPropertyFile("admin_username"), fu.readDataFromPropertyFile("admin_password"));
 	ahp.adminLogout();
-	
+
+
+	System.out.println("merge done");
 	
 	
 }
